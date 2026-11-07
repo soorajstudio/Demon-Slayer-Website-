@@ -17,19 +17,29 @@ A modern, studio-grade tribute website dedicated to the universe of **Kimetsu no
   - **Reel 02 — The Frost of Eternal Paradise**: Upper Rank Two Douma's crystalline cryokinesis and lotus blooms.
   - Distraction-free native looping with zero intrusive hover icons or control overlays.
 
-- **Legends & Warriors Character Roster**:
-  - High-resolution anime artwork for 10 legendary figures:
-    - **Kokushibo** (`上弦の壱` · Upper Rank One · Moon Breathing)
-    - **Douma** (`上弦の弐` · Upper Rank Two · Cryokinesis)
-    - **Yoriichi Tsugikuni** (`日の呼吸開祖` · Sun God Swordsman)
-    - **Kyojuro Rengoku** (`炎柱` · Flame Hashira)
-    - **Akaza** (`上弦の参` · Upper Rank Three · Destructive Death)
-    - **Tanjiro Kamado** (`竈門炭治郎` · Sun & Water Slayer)
-    - **Nezuko Kamado** (`竈門禰豆子` · Sunlit Demon Maiden)
-    - **Giyu Tomioka** (`水柱` · Water Hashira · Dead Calm)
-    - **Shinobu Kocho** (`蟲柱` · Insect Hashira · Wisteria Venom)
-    - **Muzan Kibutsuji** (`鬼の始祖` · The Demon King)
-  - Interactive category filtering: **All Characters**, **Twelve Kizuki**, and **Demon Slayer Corps**.
+- **Legends & Warriors Character Roster (17 Collector Posters)**:
+  - Widescreen (16:9) collector art posters for all 17 central figures:
+    - **The 9 Hashira**:
+      - **Kyojuro Rengoku** (`炎柱` · Flame Hashira)
+      - **Giyu Tomioka** (`水柱` · Water Hashira · Dead Calm)
+      - **Shinobu Kocho** (`蟲柱` · Insect Hashira · Wisteria Venom)
+      - **Tengen Uzui** (`音柱` · Sound Hashira · Flamboyance)
+      - **Muichiro Tokito** (`霞柱` · Mist Hashira · Sengoku Prodigy)
+      - **Mitsuri Kanroji** (`恋柱` · Love Hashira · Whip Nichirin)
+      - **Obanai Iguro** (`蛇柱` · Serpent Hashira · Slithering Blade)
+      - **Sanemi Shinazugawa** (`風柱` · Wind Hashira · Cyclone Vortex)
+      - **Gyomei Himejima** (`岩柱` · Stone Hashira · Strongest Pillar)
+      - **Kanae Kocho** (`花柱` · Former Flower Hashira · Wisteria Peace)
+    - **Demon Slayer Corps Slayers**:
+      - **Tanjiro Kamado** (`竈門炭治郎` · Sun & Water Slayer)
+      - **Nezuko Kamado** (`竈門禰豆子` · Sunlit Sakura Demon Maiden)
+      - **Inosuke Hashibira** (`嘴平伊之助` · Beast Breathing)
+    - **Twelve Kizuki & Progenitors**:
+      - **Kokushibo & Yoriichi** (`上弦の壱 ✕ 始まりの呼吸` · Moon & Sun Dichotomy)
+      - **Douma** (`上弦の弐` · Upper Rank Two · Cryokinesis)
+      - **Akaza** (`上弦の参` · Upper Rank Three · Destructive Death)
+      - **Muzan Kibutsuji** (`万鬼の始祖` · The Demon King)
+  - Interactive category filtering: **All Legends (17)**, **The 9 Hashira**, **Demon Slayer Corps**, and **Twelve Kizuki & Progenitors**.
   - Instant live search by name, breathing style, or quote keywords.
 
 - **Memorable Inscribed Quotes**:
@@ -47,17 +57,29 @@ Demon-Slayer-Website-/
 ├── README.md                   # Project documentation
 └── assets/
     ├── images/
-    │   └── characters/         # High-resolution character artwork (Web-fetched)
-    │       ├── akaza.jpg
-    │       ├── douma.jpg
-    │       ├── giyu.jpg
-    │       ├── kokushibo.jpg
-    │       ├── muzan.jpg
-    │       ├── nezuko.jpg
-    │       ├── rengoku.jpg
-    │       ├── shinobu.jpg
-    │       ├── tanjiro.jpg
-    │       └── yoriichi.jpg
+    │   └── characters/         # 17 Widescreen Collector Posters (.png)
+    │       ├── akaza.png
+    │       ├── douma.png
+    │       ├── giyu.png
+    │       ├── gyomei.png
+    │       ├── inosuke.png
+    │       ├── kanae.png
+    │       ├── kokushibo.png
+    │       ├── mitsuri.png
+    │       ├── muichiro.png
+    │       ├── muzan.png
+    │       ├── nezuko.png
+    │       ├── obanai.png
+    │       ├── rengoku.png
+    │       ├── sanemi.png
+    │       ├── shinobu.png
+    │       ├── tanjiro.png
+    │       └── tengen.png
+    └── videos/                 # Motion reels & hero background video
+        ├── hero-video.mp4
+        ├── video-1.mp4
+        └── video-2.mp4
+```
     └── videos/                 # Motion reels & hero background video
         ├── hero-video.mp4
         ├── video-1.mp4

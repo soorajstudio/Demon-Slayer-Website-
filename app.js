@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const group = card.dataset.group || '';
       const cardText = card.textContent.toLowerCase();
 
-      const matchesGroup = (activeFilter === 'all') || (group === activeFilter);
+      const matchesGroup = (activeFilter === 'all') || group.split(' ').includes(activeFilter);
       const matchesSearch = !query || cardText.includes(query);
 
       if (matchesGroup && matchesSearch) {
