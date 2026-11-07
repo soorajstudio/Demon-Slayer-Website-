@@ -6,7 +6,23 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // =========================================================================
-  // 1. VIDEO PLAYBACK ENHANCEMENTS
+  // 1. IMAGE ERROR FALLBACK (Handles PNG/JPG cached swaps gracefully)
+  // =========================================================================
+
+  document.querySelectorAll('.card-media img').forEach((img) => {
+    img.addEventListener('error', function () {
+      if (this.dataset.retry) return;
+      this.dataset.retry = 'true';
+      if (this.src.endsWith('.png')) {
+        this.src = this.src.replace(/\.png(\?.*)?$/, '.jpg');
+      } else if (this.src.endsWith('.jpg')) {
+        this.src = this.src.replace(/\.jpg(\?.*)?$/, '.png');
+      }
+    });
+  });
+
+  // =========================================================================
+  // 2. VIDEO PLAYBACK ENHANCEMENTS
   // =========================================================================
 
   const videos = document.querySelectorAll('.cinematic-video, .hero-video');
