@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demon Slayer: Kimetsu no Yaiba · 鬼滅の刃</title>
+  <meta name="description" content="Official cinematic Demon Slayer archive featuring motion chronicles, character lore, breathing styles, and iconic quotes.">
+  
+  <!-- Studio Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Serif+JP:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Clean Studio Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand">
+        <span class="brand-kanji">滅</span>
+        <div class="brand-text">
+          <span class="brand-title">DEMON SLAYER</span>
+          <span class="brand-sub">KIMETSU NO YAIBA · 鬼滅の刃</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link active">Overview</a>
+        <a href="#cinematics" class="nav-link">Cinematic Reels</a>
+        <a href="#characters" class="nav-link">Characters</a>
+        <a href="#quotes" class="nav-link">Iconic Quotes</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="#cinematics" class="btn btn-sm btn-outline">Watch Reels</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION: Featuring Cinematic Motion Video -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg">
+        <video 
+          id="heroVideo" 
+          class="hero-video" 
+          autoplay 
+          loop 
+          muted 
+          playsinline 
+          preload="auto"
+        >
+          <source src="assets/videos/hero-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="hero-scrim"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="tag-dot"></span>
+          <span>CINEMATIC ARCHIVE · STUDIO EDITION</span>
+        </div>
+
+        <h1 class="hero-title">
+          THE BLADE THAT SEVERS <span class="text-accent">DESPAIR</span>
+        </h1>
+
+        <p class="hero-lead">
+          Between the high blooming valleys of wisteria and the boundless demon-haunted twilight, warriors draw their nichirin blades. An elegant chronicle honoring the Hashira, the Twelve Kizuki, and the wills that burn hotter than the dawn.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#cinematics" class="btn btn-primary">
+            <span>Watch Motion Reels</span>
+          </a>
+          <a href="#characters" class="btn btn-secondary">
+            <span>Explore Characters</span>
+          </a>
+        </div>
+
+        <!-- Hero Quote Pill -->
+        <div class="hero-quote-pill">
+          <p class="quote-text">
+            “No matter how devastating the blows may be, you have no choice but to go on living. Set your heart ablaze and pierce through the darkest night.”
+          </p>
+          <span class="quote-source">— Demon Slayer Creed · 鬼殺隊</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CINEMATIC MOTION REELS (Directly after Hero) -->
+    <section id="cinematics" class="section cinematics-section">
+      <div class="section-heading">
+        <span class="section-kicker">MOTION CHRONICLES · 映像記録</span>
+        <h2 class="section-title">CINEMATIC REELS</h2>
+        <p class="section-subtitle">
+          High-definition motion showcases capturing the fluid intensity, breathing forms, and lethal elegance of the demon universe.
+        </p>
+      </div>
+
+      <div class="video-grid">
+        <!-- Reel 1 -->
+        <article class="video-card">
+          <div class="video-wrapper">
+            <video 
+              id="video1" 
+              class="cinematic-video" 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              preload="auto"
+            >
+              <source src="assets/videos/video-1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-badge">REEL 01</div>
+          </div>
+          <div class="video-meta">
+            <div class="video-header">
+              <h3 class="video-title">Chronicle of Blood & Steel</h3>
+              <span class="video-jp">上弦の武芸 · 月光と紅蓮</span>
+            </div>
+            <p class="video-desc">
+              A dynamic visual study of the Sengoku sword legacy, focusing on the dark majesty of Moon Breathing and the crimson blade that once held Muzan at bay.
+            </p>
+            <div class="video-tags">
+              <span class="pill">Sengoku Era</span>
+              <span class="pill">Nichirin Mastery</span>
+              <span class="pill">Demonic Ascension</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Reel 2 -->
+        <article class="video-card">
+          <div class="video-wrapper">
+            <video 
+              id="video2" 
+              class="cinematic-video" 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              preload="auto"
+            >
+              <source src="assets/videos/video-2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-badge">REEL 02</div>
+          </div>
+          <div class="video-meta">
+            <div class="video-header">
+              <h3 class="video-title">The Frost of Eternal Paradise</h3>
+              <span class="video-jp">極楽教の氷晶 · 万世の夢</span>
+            </div>
+            <p class="video-desc">
+              Atmospheric motion highlighting the crystalline cryokinesis art of the Eternal Paradise Cult—where razor-sharp pulverized ice and lotus blooms bring chilling salvation.
+            </p>
+            <div class="video-tags">
+              <span class="pill">Upper Rank Two</span>
+              <span class="pill">Blood Demon Art</span>
+              <span class="pill">Cryokinesis Lotus</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION: CHARACTERS & LORE (Clean, Studio Standard Presentation) -->
+    <section id="characters" class="section characters-section">
+      <div class="section-heading">
+        <span class="section-kicker">CHARACTER PROFILES · 登場人物</span>
+        <h2 class="section-title">LEGENDS & WARRIORS</h2>
+        <p class="section-subtitle">
+          Profiles of the central figures shaping the century-long war between humanity and demons.
+        </p>
+      </div>
+
+      <!-- Controls: Filter & Search -->
+      <div class="roster-toolbar">
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All Characters</button>
+          <button class="filter-btn" data-filter="kizuki">Twelve Kizuki</button>
+          <button class="filter-btn" data-filter="corps">Demon Slayer Corps</button>
+        </div>
+        <div class="search-wrap">
+          <input type="text" id="characterSearch" placeholder="Filter by name, breathing style, or quote..." aria-label="Filter characters">
+        </div>
+      </div>
+
+      <!-- Character Grid -->
+      <div class="character-grid" id="characterGrid">
+
+        <!-- Kokushibo -->
+        <article class="character-card" data-group="kizuki">
+          <div class="card-media">
+            <img src="assets/images/characters/kokushibo.jpg" alt="Kokushibo" loading="lazy">
+            <span class="card-rank-badge">UPPER RANK ONE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">黒死牟</span>
+              <span class="card-style-pill">Moon Breathing (月の呼吸)</span>
+            </div>
+            <h3 class="card-name">Kokushibo</h3>
+            <p class="card-role">Leader of the Twelve Kizuki · Former Sengoku Swordsman</p>
+            <p class="card-desc">
+              Formerly Michikatsu Tsugikuni, an elite Sengoku swordsman and twin brother of Yoriichi. Consumed by envy of his brother’s peerless genius, he abandoned his humanity to forge Moon Breathing with a living flesh blade.
+            </p>
+            <div class="card-quote">
+              <p>“The path of the warrior is fraught with sacrifices. In my eternal pursuit to surpass him, I discarded everything—my humanity, my kin, my very soul.”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Douma -->
+        <article class="character-card" data-group="kizuki">
+          <div class="card-media">
+            <img src="assets/images/characters/douma.jpg" alt="Douma" loading="lazy">
+            <span class="card-rank-badge">UPPER RANK TWO</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">童磨</span>
+              <span class="card-style-pill">Cryokinesis (粉凍り)</span>
+            </div>
+            <h3 class="card-name">Douma</h3>
+            <p class="card-role">Leader of the Eternal Paradise Faith · Twelve Kizuki</p>
+            <p class="card-desc">
+              Serene, friendly, and completely devoid of human grief or fear. He views devouring mortals as a divine act of mercy, sparing them from the pain of mortal life through his freezing lotus Blood Demon Art.
+            </p>
+            <div class="card-quote">
+              <p>“Humans are so tragic. You cry, you suffer, you struggle against death. But fear not—inside my body, there is no pain, no hunger, only eternal bliss.”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Yoriichi Tsugikuni -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/yoriichi.jpg" alt="Yoriichi Tsugikuni" loading="lazy">
+            <span class="card-rank-badge">SUN PROGENITOR</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">継国 縁壱</span>
+              <span class="card-style-pill">Sun Breathing (日の呼吸)</span>
+            </div>
+            <h3 class="card-name">Yoriichi Tsugikuni</h3>
+            <p class="card-role">Progenitor of All Breathing Forms · Sengoku Demon Slayer</p>
+            <p class="card-desc">
+              The peerless master who almost destroyed Muzan Kibutsuji in a single engagement. Born with the Demon Slayer Mark and the Transparent World, he remained profoundly humble and gentle throughout his sorrowful life.
+            </p>
+            <div class="card-quote">
+              <p>“We are not that great. We are just fragments in the grand river of human history. The swordsmen who will surpass us are probably being born right now.”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Kyojuro Rengoku -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/rengoku.jpg" alt="Kyojuro Rengoku" loading="lazy">
+            <span class="card-rank-badge">FLAME HASHIRA</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">煉獄 杏寿郎</span>
+              <span class="card-style-pill">Flame Breathing (炎の呼吸)</span>
+            </div>
+            <h3 class="card-name">Kyojuro Rengoku</h3>
+            <p class="card-role">Flame Pillar of the Demon Slayer Corps</p>
+            <p class="card-desc">
+              A charismatic, righteous warrior whose burning heart inspired everyone around him. Guided by his mother's principle that the strong exist to protect the weak, he gave his life on the Mugen Train so no passenger would perish.
+            </p>
+            <div class="card-quote">
+              <p>“Set your heart ablaze. Go beyond your limits! I will fulfill my duty! I will not allow anyone here to die!”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Akaza -->
+        <article class="character-card" data-group="kizuki">
+          <div class="card-media">
+            <img src="assets/images/characters/akaza.jpg" alt="Akaza" loading="lazy">
+            <span class="card-rank-badge">UPPER RANK THREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">猗窩座</span>
+              <span class="card-style-pill">Destructive Death (破壊殺)</span>
+            </div>
+            <h3 class="card-name">Akaza</h3>
+            <p class="card-role">Martial Arts Specialist · Twelve Kizuki</p>
+            <p class="card-desc">
+              Formerly the human martial artist Hakuji. Obsessed with reaching absolute combat perfection, he fights with shockwave-infused martial strikes while strictly refusing to consume or harm women.
+            </p>
+            <div class="card-quote">
+              <p>“Become a demon, Kyojuro! If you don't, you will age and wither. Refine your martial arts for centuries to come!”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tanjiro Kamado -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/tanjiro.jpg" alt="Tanjiro Kamado" loading="lazy">
+            <span class="card-rank-badge">DEMON SLAYER</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">竈門 炭治郎</span>
+              <span class="card-style-pill">Hinokami Kagura & Water</span>
+            </div>
+            <h3 class="card-name">Tanjiro Kamado</h3>
+            <p class="card-role">Heir to the Dance of the Fire God</p>
+            <p class="card-desc">
+              A kind-hearted boy with an extraordinary sense of smell who embarked on a relentless journey to cure his sister Nezuko and end Muzan’s reign, carrying the ancestral Hanafuda earrings.
+            </p>
+            <div class="card-quote">
+              <p>“No matter how many people you lose, you have no choice but to go on living. No matter how devastating the blows may be.”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Nezuko Kamado -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/nezuko.jpg" alt="Nezuko Kamado" loading="lazy">
+            <span class="card-rank-badge">SUNLIT DEMON</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">竈門 禰豆子</span>
+              <span class="card-style-pill">Exploding Blood (爆血)</span>
+            </div>
+            <h3 class="card-name">Nezuko Kamado</h3>
+            <p class="card-role">Sun-Conquering Demon Maiden · Human Protector</p>
+            <p class="card-desc">
+              Transformed into a demon by Muzan, she refused to harm humans and draws strength from deep slumber. Her pink pyrokinesis incinerates demons and purifies demon toxins.
+            </p>
+            <div class="card-quote">
+              <p>“Humans are meant to be protected and saved... I will never hurt them!”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Giyu Tomioka -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/giyu.jpg" alt="Giyu Tomioka" loading="lazy">
+            <span class="card-rank-badge">WATER HASHIRA</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">冨岡 義勇</span>
+              <span class="card-style-pill">Water Breathing: 11th Form Dead Calm</span>
+            </div>
+            <h3 class="card-name">Giyu Tomioka</h3>
+            <p class="card-role">Water Pillar of the Demon Slayer Corps</p>
+            <p class="card-desc">
+              The stoic Water Hashira who spared Tanjiro and Nezuko. Marked by survivor's guilt from the Final Selection, he invented the transcendent 11th form "Dead Calm" that neutralizes all incoming attacks.
+            </p>
+            <div class="card-quote">
+              <p>“Feel the rage. That unforgiving anger will become your unyielding drive to take action and strike back!”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Shinobu Kocho -->
+        <article class="character-card" data-group="corps">
+          <div class="card-media">
+            <img src="assets/images/characters/shinobu.jpg" alt="Shinobu Kocho" loading="lazy">
+            <span class="card-rank-badge">INSECT HASHIRA</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">胡蝶 しのぶ</span>
+              <span class="card-style-pill">Insect Breathing (蟲の呼吸)</span>
+            </div>
+            <h3 class="card-name">Shinobu Kocho</h3>
+            <p class="card-role">Insect Pillar · Mistress of Butterfly Mansion</p>
+            <p class="card-desc">
+              A genius apothecary who compensates for lacking the physical strength to decapitate demons with blinding thrusting velocity and lethal wisteria poison injected via her stinger blade.
+            </p>
+            <div class="card-quote">
+              <p>“Even without the physical strength to decapitate demons, the wisteria poison in my stinger blade is absolute.”</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Muzan Kibutsuji -->
+        <article class="character-card" data-group="kizuki">
+          <div class="card-media">
+            <img src="assets/images/characters/muzan.jpg" alt="Muzan Kibutsuji" loading="lazy">
+            <span class="card-rank-badge">DEMON PROGENITOR</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-kanji">鬼舞辻 無惨</span>
+              <span class="card-style-pill">Biokinesis & Blood Curse</span>
+            </div>
+            <h3 class="card-name">Muzan Kibutsuji</h3>
+            <p class="card-role">The Demon King · Progenitor of All Demons</p>
+            <p class="card-desc">
+              A thousand-year-old progenitor whose singular ambition is absolute physical perfection and conquering the sun. Cold and tyrannical, he rules the Twelve Kizuki through absolute telepathic dominance.
+            </p>
+            <div class="card-quote">
+              <p>“I am a living catastrophe. Does a natural disaster apologize to the trees it uproots? Survival alone should suffice.”</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ICONIC QUOTES (Clean Minimal Typography) -->
+    <section id="quotes" class="section quotes-section">
+      <div class="section-heading">
+        <span class="section-kicker">MEMORABLE INSCRIBED WORDS · 魂の言霊</span>
+        <h2 class="section-title">WORDS THAT BURNED THROUGH TWILIGHT</h2>
+      </div>
+
+      <div class="quotes-grid">
+        <div class="quote-card">
+          <div class="quote-symbol">“</div>
+          <p class="quote-body">
+            Set your heart ablaze. Go beyond your limits! I will fulfill my duty! I will not allow anyone here to die!
+          </p>
+          <div class="quote-speaker">
+            <strong>Kyojuro Rengoku</strong>
+            <span>The Flame Hashira · 炎柱</span>
+          </div>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-symbol">“</div>
+          <p class="quote-body">
+            You cannot even touch the sky with your hand, yet you wish to seize the stars? Even if our lives are fragile and fleeting, the fire of human will shall never be extinguished.
+          </p>
+          <div class="quote-speaker">
+            <strong>Yoriichi Tsugikuni</strong>
+            <span>Sun Breathing Progenitor · 日の呼吸開祖</span>
+          </div>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-symbol">“</div>
+          <p class="quote-body">
+            Humans are so tragic. You cry, you suffer, you struggle against death. But fear not—inside my body, there is no pain, no hunger, only eternal bliss.
+          </p>
+          <div class="quote-speaker">
+            <strong>Douma</strong>
+            <span>Upper Rank Two · 十二鬼月</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Studio Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-kanji">滅</span>
+        <div>
+          <span class="footer-title">DEMON SLAYER : KIMETSU NO YAIBA</span>
+          <p class="footer-note">Official Cinematic Showcase · Crafted with standard studio touch.</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <span>© Koyoharu Gotouge / Shueisha · Aniplex · ufotable</span>
+        <span>All motion clips & visuals curated for presentation</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
